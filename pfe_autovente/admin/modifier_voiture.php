@@ -131,9 +131,7 @@ if (!$v) {
                         <option value="reservee" <?= $v['statut'] === 'reservee' ? 'selected' : '' ?>>
                             Réservée
                         </option>
-                        <option value="vendue" <?= $v['statut'] === 'vendue' ? 'selected' : '' ?>>
-                            Vendue
-                        </option>
+                      
                     </select>
                 </div>
 
